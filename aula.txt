@@ -1,0 +1,62 @@
+Objetivos:
+*. Overview sobre REST API - https://aws.amazon.com/pt/compare/the-difference-between-soap-rest/
+*. Configurar o ambiente: express,mongodb ...
+*. Middleware - verificar erros--> Verificar o formato do JSON!! -OK
+*. Rotas - express
+OBS: SEMPRE ficar atento ao async/await, para evitar erros de timeout e undefined
+*. Validações- validations: 
+    Dos campos do livro (com o mongoose)
+*. Trabalhar com DB não-relacional (MongoDB) - mongoose (ORM)
+
+*. Endpoints para CRUD de um livro: UPDATE, DELETE tem que ser por ID
+
+
+Após Intervalo
+    * Finalizar o CRUD - OK
+    * Organizar o código => Controller / Rotas do Express - OK
+
+==>Autenticação
+
+* Usuarios
+* Criptografia  da  senha! - OK
+*. Autenticação e segurança - gerar JWT - OK
+* Após auth criar  Middleware para validar o token - OK
+* Validators do Express
+* Uso do async/await e o then/catch (as duas abordagens!)
+
+* Relacionar Livro a um usuario
+
+
+
+*. Segurança - helmet / cors
+* Subir a API no Render
+* Fazer teste funcional com os alunos
+*. Explicar a atividade final
+
+
+Sistema
+Salvar livros num banco de dados MongoDB
+Fazer login **
+
+Modelar um livro => Quais atributos do livro?
+Book
+    title
+    author
+    year
+    pages
+    genre
+
+O usuário precisa fazer login
+User
+    name
+    email
+    password
+
+
+//Melhorias para o Sistema
+* Associar o livro ao usuário => User fez login, salvou um livro. Este livro pertence a este user!
+    Quem pode apagar/editar o livro? Somente o user que criou este livro!
+
+* Na rota para pegar todos os livros, adicionar paginação
+* Criar um user administrador geral que pode fazer CRUD em qqualquer livro, excluir usuários, etc...
+    
