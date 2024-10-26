@@ -10,7 +10,6 @@ OBS: SEMPRE ficar atento ao async/await, para evitar erros de timeout e undefine
 
 *. Endpoints para CRUD de um livro: UPDATE, DELETE tem que ser por ID
 
-
 Após Intervalo
     * Finalizar o CRUD - OK
     * Organizar o código => Controller / Rotas do Express - OK
@@ -21,18 +20,10 @@ Após Intervalo
 * Criptografia  da  senha! - OK
 *. Autenticação e segurança - gerar JWT - OK
 * Após auth criar  Middleware para validar o token - OK
-* Validators do Express
-* Uso do async/await e o then/catch (as duas abordagens!)
-
-* Relacionar Livro a um usuario
-
-
-
-*. Segurança - helmet / cors
-* Subir a API no Render
-* Fazer teste funcional com os alunos
+* Validators do Express - OK
+* Uso do async/await e o then/catch (as duas abordagens!) - OK
+*. Segurança - helmet / cors - OK
 *. Explicar a atividade final
-
 
 Sistema
 Salvar livros num banco de dados MongoDB
@@ -54,6 +45,7 @@ User
 
 
 //Melhorias para o Sistema
+
 * Associar o livro ao usuário => User fez login, salvou um livro. Este livro pertence a este user!
     Quem pode apagar/editar o livro? Somente o user que criou este livro!
 
